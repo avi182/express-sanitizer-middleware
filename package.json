@@ -1,6 +1,6 @@
 {
-  "name": "jump-sanitizer",
-  "version": "1.0.0",
+  "name": "express-sanitizer-middleware",
+  "version": "1.0.1",
   "description": "A sanitizer for GET and POST requests payloads",
   "main": "index.js",
   "scripts": {
@@ -9,8 +9,16 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "canvas": "^2.5.0",
     "dompurify": "^1.0.11",
-    "jsdom": "^15.1.1",
-    "canvas":"^2.5.0"
-  }
+    "jsdom": "^15.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avi182/express-sanitizer-middleware.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avi182/express-sanitizer-middleware/issues"
+  },
+  "homepage": "https://github.com/avi182/express-sanitizer-middleware#readme"
 }
