@@ -1,0 +1,16 @@
+{
+  "name": "jump-sanitizer",
+  "version": "1.0.0",
+  "description": "A sanitizer for GET and POST requests payloads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dompurify": "^1.0.11",
+    "jsdom": "^15.1.1",
+    "canvas":"^2.5.0"
+  }
+}
