@@ -1,6 +1,6 @@
 {
   "name": "express-route-sanitizer-middleware",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A sanitizer for GET and POST requests payloads",
   "main": "index.js",
   "scripts": {
