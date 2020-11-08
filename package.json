@@ -1,5 +1,5 @@
 {
-  "name": "express-sanitizer-middleware",
+  "name": "express-route-sanitizer-middleware",
   "version": "1.0.1",
   "description": "A sanitizer for GET and POST requests payloads",
   "main": "index.js",
