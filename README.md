@@ -1,4 +1,4 @@
-# Express Sanitzier Middleware
+# Express Route Sanitizer Middleware
 
 This middleware will enable _sanitizing_ requests on a _route-scope_, with minimum addition of code.
 
@@ -19,11 +19,11 @@ Packages: **DOMPurify, JSDom, Canvas**.
 
 ```sh
 const app = express();
-import sanitizer from "express-sanitizer-middleware";
+import sanitizer from "express-route-sanitizer-middleware";
 // Requests to this route will first go through the sanitizer
 app.use('/users', sanitizer, require('./controllers/users-api'));
 
 app.listen(port);
 ```
 
-## That's it! The 'Users' controller will be now guarded by the sanitizer middleware.
+## That's it! The "Users" controller will now be sanitized by the middleware.
