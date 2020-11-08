@@ -9,7 +9,7 @@ Packages: **DOMPurify, JSDom, Canvas**.
 
 ## Installation
 
-1. `npm install express-sanitizer-middleware`
+1. `npm i express-route-sanitizer-middleware`
 
 2. import into your Express app main file.
 

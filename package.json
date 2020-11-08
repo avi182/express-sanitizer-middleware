@@ -1,6 +1,6 @@
 {
   "name": "express-route-sanitizer-middleware",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A sanitizer for GET and POST requests payloads",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/avi182/express-sanitizer-middleware/issues"
   },
-  "homepage": "https://github.com/avi182/express-sanitizer-middleware#readme"
+  "homepage": "https://github.com/avi182/express-sanitizer-middleware#readme",
+  "keywords": ["express", "sanitize", "route guard", "dompurify", "xss"]
 }
